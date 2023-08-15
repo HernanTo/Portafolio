@@ -14,8 +14,9 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: rgb(0,3,128);
-    background: linear-gradient(270deg, rgb(15, 16, 75) 25%, rgba(34,8,74,1) 79%);
+    background: #141e30; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #141e30, #243b55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h2, h4{
     margin: 0px;
