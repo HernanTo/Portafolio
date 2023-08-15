@@ -14,7 +14,8 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: var(--dark-blue-opca-p);
+    background: rgb(0,3,128);
+    background: linear-gradient(270deg, rgb(15, 16, 75) 25%, rgba(34,8,74,1) 79%);
 }
 h2, h4{
     margin: 0px;
@@ -23,6 +24,17 @@ h2, h4{
 a{
     text-decoration: none;
     color: white;
+}
+
+*::selection {
+    background: var(--lightseagreen);
+    color: black;
+}
+
+/* Firefox */
+*::-moz-selection {
+    background: var(--lightseagreen);
+    color: black;
 }
 
 .container{
@@ -205,9 +217,6 @@ a{
     border-radius: 12px;
     transition: all 0.6s;
 }
-/* .con__project:hover{
-    background: rgba(28, 129, 173, 0.128);
-} */
 
 .con__project:hover .con__name h2{
     color: var(--lightseagreen);
@@ -333,6 +342,12 @@ a{
 
 /* Responsive computter */
 @media (min-width: 1155px){
+    .con__project{
+        padding: 40px;
+    }
+    .con__project:hover{
+    background: rgba(28, 129, 173, 0.128);
+}
     .main-container{
         width: 100%;
         display: grid;
