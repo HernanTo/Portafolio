@@ -14,9 +14,9 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: #141e30; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #141e30, #243b55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #141e30; 
+    background: -webkit-linear-gradient(to right, #141e30, #243b55); 
+    background: linear-gradient(to right, #141e30, #243b55); 
 }
 h2, h4{
     margin: 0px;
@@ -156,7 +156,7 @@ a{
     transition: all 0.6s;
 }
 .con-element-study:hover{
-    background: var(--dark-blue-p);
+    background: rgba(28, 129, 173, 0.128);
 }
 
 .con-element-study span{
