@@ -139,6 +139,29 @@ a{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     text-align: justify;
+
+}
+.text__about__me{
+    font-size: 19px;
+    line-height: 30px;
+}
+.link__cv{
+    display: flex;
+    font-weight: bolder;
+    column-gap: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: all 0.3s;
+}
+.link__cv img{
+    width: 20px;
+}
+.link__cv:hover{
+    /* color: var(--lightseagreen); */
+    /* text-decoration-color: #03C988 !important; */
+    text-decoration-line: underline !important;
+    text-decoration-color: var(--lightseagreen);
+    text-decoration-thickness: 3px;
+    column-gap: 20px;
 }
 /* Seccion sobre mi */
 
@@ -202,6 +225,23 @@ a{
 .con__skl:hover{
     transform: scale(1.05);
     transition: all 0.6s;
+}
+.con__skl h2{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.con__skl h2 span{
+    background: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con__skl h2 span img{
+    width: 70%;
 }
 /* Seccion skills */
 
