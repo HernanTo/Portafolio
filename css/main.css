@@ -123,6 +123,10 @@ a{
 .foo__info .con__red__social:hover{
     transform: scale(1.09);
 }
+.foo__info .con__red__social img{
+    width: 30px;
+    height: 30px;
+}
 /* Header information */
 
 /* body information */
@@ -140,9 +144,9 @@ a{
 }
 .con__cl .content__cla p{
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     text-align: justify;
-
+    color: var(--colortext);
 }
 .text__about__me{
     font-size: 19px;
@@ -212,25 +216,34 @@ a{
 .con__skl{
     background: rgba(28, 129, 173, 0.128);
     border: 2px solid rgba(28, 129, 173, 0.128);
-    border-style: outset;
     padding: 20px;
     border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
 }
 .con__skl h2{
     font-family: 'Alata';
     color: var(--lightseagreen);
     font-size: 18px;
     margin: 0px 0px 15px 0px;
+    text-align: center;
+    width: 100%;
 }
 .con__skl p{
     margin: 0px;
+    background: rgba(28, 129, 173, 0.128);
+    padding: 5px 8px;
+    height: fit-content;
+    border-radius: 10px;
 }
 .con__skl:hover{
     transform: scale(1.05);
     transition: all 0.6s;
 }
 .con__skl h2{
-    display: flex;
     align-items: center;
     column-gap: 8px;
 }
@@ -289,7 +302,9 @@ a{
 }
 .con__tools{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 10px;
+    row-gap: 10px;
 }
 .tool{
     background: #1c81ad9c;
