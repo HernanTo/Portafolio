@@ -79,15 +79,16 @@ a{
     display: grid;
     row-gap: 20px;
 }
-.con__info .info .header__info h2{
+.con__info .info .header__info h1{
     font-family: 'Alata';
     font-size: 40px;
     color: var(--steelblue-p);
+    margin: 0px;
 }
-.con__info .info .header__info h2 span{
+.con__info .info .header__info h1 span{
     color: var(--lightseagreen);
 }
-.con__info .info .header__info h4{
+.con__info .info .header__info h2{
     font-size: 24px;
 }
 .con__info .info .body__info p{
